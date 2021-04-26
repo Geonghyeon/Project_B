@@ -1,19 +1,19 @@
 import React, { Component } from 'react';
-
+import './DefaultLayout.css';
 
 class DefaultLayout extends Component {
 
     render() {
 
         return (
-            <main>
+            <layout>
                 <div className="nav">
                     navbar test
                 </div>
-                <div classNam="body">
+                <div className="body">
                     body test
                 </div>
-            </main>
+            </layout>
             
         )
     }
